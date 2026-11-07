@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sending You Hugs - Surrounding Bouquet Experience</title>
+    <title>Happy Birthday - Celebration Experience</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -21,11 +21,11 @@
             -webkit-user-select: none;
         }
 
-        .yellow-grid-bg {
-            background-color: #ffffff;
+        .birthday-grid-bg {
+            background-color: #fff5f8;
             background-image: 
-                linear-gradient(to right, #ffc83b 1px, transparent 1px),
-                linear-gradient(to bottom, #ffc83b 1px, transparent 1px);
+                linear-gradient(to right, #fbcfe8 1px, transparent 1px),
+                linear-gradient(to bottom, #fbcfe8 1px, transparent 1px);
             background-size: 38px 38px;
         }
 
@@ -105,17 +105,17 @@
         }
     </style>
 </head>
-<body class="yellow-grid-bg h-screen w-screen relative flex flex-col items-center justify-center overflow-hidden touch-manipulation">
+<body class="birthday-grid-bg h-screen w-screen relative flex flex-col items-center justify-center overflow-hidden touch-manipulation">
 
     <div id="container" class="relative w-full h-full flex flex-col items-center justify-center">
 
         <!-- Top Header Message -->
         <div class="absolute top-8 text-center z-40 px-4 pointer-events-none">
-            <h1 class="text-2xl md:text-3xl font-bold text-amber-600 tracking-wide drop-shadow-sm">
-                Sending You Hugs 💙✨
+            <h1 class="text-3xl md:text-4xl font-extrabold text-pink-600 tracking-wide drop-shadow-sm">
+                Happy Birthday! 🎂✨
             </h1>
-            <p id="instructionText" class="text-xs md:text-sm text-amber-600 mt-2 hint-pulse font-semibold bg-white/80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-amber-300 shadow-sm inline-block">
-                👆 Tap the bouquet to open hugs! 👆
+            <p id="instructionText" class="text-xs md:text-sm text-pink-600 mt-2 hint-pulse font-semibold bg-white/80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-pink-300 shadow-sm inline-block">
+                👇 မွေးနေ့လက်ဆောင်ဖွင့်ရန် ပန်းစည်းလေးကို နှိပ်ပါ! 👇
             </p>
         </div>
 
@@ -123,39 +123,39 @@
         <div id="surroundingContainer" class="absolute inset-0 flex items-center justify-center pointer-events-none z-30">
             <!-- PNG 1 -->
             <div class="surrounding-item" id="item-0">
-                <div onclick="handleItemClick(0, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-amber-200 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
+                <div onclick="handleItemClick(0, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-pink-300 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
                     <img src="https://i.pinimg.com/1200x/e5/1b/4b/e51b4b7af148708f5e5bf174c31a50bb.jpg" alt="Item 1" class="w-full h-full object-contain rounded-xl pointer-events-none">
                 </div>
             </div>
             <!-- PNG 2 -->
             <div class="surrounding-item" id="item-1">
-                <div onclick="handleItemClick(1, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-amber-200 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
-                    <img src="https://i.pinimg.com/1200x/2f/1f/fa/2f1ffa1b911cf88206d9144c85adb65d.jpg" alt="Item 2" class="w-full h-full object-contain rounded-xl pointer-events-none">
+                <div onclick="handleItemClick(1, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-pink-300 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
+                    <img src="https://i.pinimg.com/736x/f4/c7/bf/f4c7bf6b31f275a4ba54a88f9ee7f145.jpg" alt="Item 2" class="w-full h-full object-contain rounded-xl pointer-events-none">
                 </div>
             </div>
             <!-- PNG 3 -->
             <div class="surrounding-item" id="item-2">
-                <div onclick="handleItemClick(2, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-amber-200 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
-                    <img src="https://i.pinimg.com/736x/19/7c/51/197c51e29cfb3ba83caa7fccee799f6e.jpg" alt="Item 3" class="w-full h-full object-contain rounded-xl pointer-events-none">
+                <div onclick="handleItemClick(2, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-pink-300 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
+                    <img src="https://i.pinimg.com/736x/3f/1b/65/3f1b65a451fc21d1c1d62a0b379119ff.jpg" alt="Item 3" class="w-full h-full object-contain rounded-xl pointer-events-none">
                 </div>
             </div>
             <!-- PNG 4 -->
             <div class="surrounding-item" id="item-3">
-                <div onclick="handleItemClick(3, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-amber-200 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
-                    <img src="https://i.ibb.co/5XnjcYTQ/shhfhfhh.png" alt="Item 4" class="w-full h-full object-contain rounded-xl pointer-events-none">
+                <div onclick="handleItemClick(3, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-pink-300 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
+                    <img src="https://i.pinimg.com/736x/cf/ae/a5/cfaea5fa368073c7ac772e4442232c15.jpg" alt="Item 4" class="w-full h-full object-contain rounded-xl pointer-events-none">
                 </div>
             </div>
             <!-- PNG 5 (Music) -->
             <div class="surrounding-item" id="item-4">
-                <div onclick="handleItemClick(4, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-amber-200 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
-                    <img id="cdImageInner" src="https://i.ibb.co/JRfMX3yf/Untitled-Design.png" alt="Item 5" class="w-full h-full object-contain rounded-xl pointer-events-none">
+                <div onclick="handleItemClick(4, event)" class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-2xl p-1 bg-white/95 shadow-xl border-2 border-pink-300 backdrop-blur-sm cursor-pointer transform hover:scale-110 active:scale-125 transition-transform duration-200 select-none overflow-hidden relative flex items-center justify-center">
+                    <img id="cdImageInner" src="https://i.pinimg.com/736x/ec/c5/b5/ecc5b5b8671bd954c16465ea3223990d.jpg" alt="Item 5" class="w-full h-full object-contain rounded-xl pointer-events-none">
                 </div>
             </div>
         </div>
 
         <!-- Main Flower Bouquet Center Image -->
         <div class="relative cursor-pointer z-20 group" id="flowerContainer" onclick="toggleBouquet(event)">
-            <div id="glowBg" class="absolute -inset-6 bg-yellow-300/40 rounded-full blur-2xl transition duration-500 group-hover:bg-yellow-400/60"></div>
+            <div id="glowBg" class="absolute -inset-6 bg-pink-300/40 rounded-full blur-2xl transition duration-500 group-hover:bg-pink-400/60"></div>
             <img 
                 id="mainBouquet"
                 src="https://i.ibb.co/hFk6hxhK/ggrg.png" 
@@ -166,22 +166,22 @@
 
         <!-- Bottom Toggle Status Indicator -->
         <div class="absolute bottom-6 z-40 text-center pointer-events-none">
-            <div class="bg-white/90 backdrop-blur-md px-5 py-2 rounded-full border border-amber-300 shadow-md text-amber-800 text-xs md:text-sm font-semibold flex items-center gap-2">
-                <i id="statusHeart" class="fa-solid fa-heart text-pink-500 text-sm"></i>
-                <span id="statusText">State: Touched with love</span>
+            <div class="bg-white/90 backdrop-blur-md px-5 py-2 rounded-full border border-pink-300 shadow-md text-pink-800 text-xs md:text-sm font-semibold flex items-center gap-2">
+                <i id="statusHeart" class="fa-solid fa-cake-candles text-pink-500 text-sm"></i>
+                <span id="statusText">State: Wishing you a magical day! 🎉</span>
             </div>
         </div>
     </div>
 
     <!-- MODAL 1: PNG 1 (YouTube Video Modal) -->
     <div id="noteModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4 transition-opacity duration-300 opacity-0">
-        <div class="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-blue-200 transform scale-90 transition-all duration-300" id="modalCard1">
+        <div class="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-pink-200 transform scale-90 transition-all duration-300" id="modalCard1">
             <button onclick="closeModal('noteModal', 'modalCard1')" class="absolute top-3 right-3 z-20 w-9 h-9 bg-black/60 hover:bg-black/80 text-white rounded-full flex items-center justify-center shadow-md">
                 <i class="fa-solid fa-xmark text-lg"></i>
             </button>
             <div class="p-4 pt-10 bg-slate-900 flex flex-col items-center">
-                <h2 class="text-lg font-bold text-sky-400 mb-3 flex items-center gap-2">
-                    <i class="fa-brands fa-youtube text-red-500 text-xl"></i> Favorite Song Video 🎵
+                <h2 class="text-lg font-bold text-pink-400 mb-3 flex items-center gap-2">
+                    <i class="fa-brands fa-youtube text-red-500 text-xl"></i> Birthday Special Song Video 🎵
                 </h2>
                 <div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-slate-700">
                     <iframe 
@@ -200,29 +200,29 @@
 
     <!-- MODAL 2: PNG 2 (Flower For You) -->
     <div id="gifModal2" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4 transition-opacity duration-300 opacity-0">
-        <div class="relative w-full max-w-sm bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-6 text-center transform scale-90 transition-all duration-300 border border-pink-200" id="modalCard2">
+        <div class="relative w-full max-w-sm bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-6 text-center transform scale-90 transition-all duration-300 border border-pink-300" id="modalCard2">
             <button onclick="closeModal('gifModal2', 'modalCard2')" class="absolute top-3 right-3 w-8 h-8 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-full flex items-center justify-center">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-            <h2 class="text-xl font-bold text-pink-600 mb-3">Flower For You 🌸✨</h2>
+            <h2 class="text-xl font-bold text-pink-600 mb-3">Virtual Birthday Cake For You 🎂🌸</h2>
             <div class="w-full h-56 flex items-center justify-center overflow-hidden rounded-2xl">
-                <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Flower GIF" class="w-full h-full object-contain drop-shadow-lg">
+                <img src="https://media.tenor.com/1zmS4Zjz2MEAAAAi/transparent-birthday.gif" alt="Flower GIF" class="w-full h-full object-contain drop-shadow-lg">
             </div>
         </div>
     </div>
 
     <!-- MODAL 3: PNG 3 (Photo Grid Scrapbook) -->
     <div id="photoBoothModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4 transition-opacity duration-300 opacity-0">
-        <div class="relative w-full max-w-sm rounded-3xl shadow-2xl p-5 transform scale-90 transition-all duration-300 border-4 border-blue-200 overflow-hidden" 
+        <div class="relative w-full max-w-sm rounded-3xl shadow-2xl p-5 transform scale-90 transition-all duration-300 border-4 border-pink-300 overflow-hidden" 
              id="modalCard3"
-             style="background-color: #e0f2fe; background-image: linear-gradient(to right, rgba(56, 189, 248, 0.25) 1px, transparent 1px), linear-gradient(to bottom, rgba(56, 189, 248, 0.25) 1px, transparent 1px); background-size: 24px 24px;">
+             style="background-color: #fff1f2; background-image: linear-gradient(to right, rgba(244, 63, 94, 0.15) 1px, transparent 1px), linear-gradient(to bottom, rgba(244, 63, 94, 0.15) 1px, transparent 1px); background-size: 24px 24px;">
             
-            <button onclick="closeModal('photoBoothModal', 'modalCard3')" class="absolute top-3 right-3 w-8 h-8 bg-white/80 hover:bg-white text-sky-700 rounded-full flex items-center justify-center z-20 shadow-sm border border-sky-200">
+            <button onclick="closeModal('photoBoothModal', 'modalCard3')" class="absolute top-3 right-3 w-8 h-8 bg-white/80 hover:bg-white text-pink-700 rounded-full flex items-center justify-center z-20 shadow-sm border border-pink-200">
                 <i class="fa-solid fa-xmark text-base"></i>
             </button>
 
-            <div class="text-center font-bold text-sky-800 text-base mb-3 tracking-widest flex items-center justify-center gap-2 relative z-10">
-                <i class="fa-solid fa-camera text-sky-500"></i> MEMORIES 📸
+            <div class="text-center font-bold text-pink-700 text-base mb-3 tracking-widest flex items-center justify-center gap-2 relative z-10">
+                <i class="fa-solid fa-camera text-pink-500"></i> Mini Photo Booth  📸
             </div>
 
             <div class="relative w-full h-[380px] z-10">
@@ -245,29 +245,33 @@
         </div>
     </div>
 
+
     <!-- MODAL 4: PNG 4 (Note Style) -->
     <div id="realisticNoteModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4 transition-opacity duration-300 opacity-0">
-        <div class="relative w-full max-w-md rounded-2xl p-7 shadow-2xl transform scale-90 transition-all duration-300 border-4 border-pink-200 overflow-hidden" 
+        <div class="relative w-full max-w-md rounded-2xl p-7 shadow-2xl transform scale-90 transition-all duration-300 border-4 border-pink-300 overflow-hidden" 
              id="modalCard4"
              style="background-color: #fdf2f8; background-image: linear-gradient(to right, rgba(244, 114, 182, 0.25) 1px, transparent 1px), linear-gradient(to bottom, rgba(244, 114, 182, 0.25) 1px, transparent 1px); background-size: 24px 24px;">
             <button onclick="closeModal('realisticNoteModal', 'modalCard4')" class="absolute top-4 right-4 w-8 h-8 bg-white/80 hover:bg-white text-pink-600 rounded-full flex items-center justify-center z-10 shadow-sm border border-pink-200">
                 <i class="fa-solid fa-xmark text-base"></i>
             </button>
             <h3 class="text-lg font-bold text-pink-700 border-b-2 border-pink-300/60 pb-2 mb-4 flex items-center gap-2">
-                <span>✨ မှတ်စုလေးများ</span>
+                <span>Happy Birthday par mg! 🎂🤍</span>
             </h3>
-            <p class="text-pink-950/85 text-sm md:text-base leading-relaxed font-serif relative z-10 bg-white/40 p-4 rounded-xl border border-pink-200/50 backdrop-blur-[2px]">
-                "ဘဝဆိုတာ လှပတဲ့ပန်းခင်းတစ်ခုလိုပါပဲ... ခင်ဗျားရဲ့ အပြုံးလေးတွေက အဲ့ဒီပန်းတွေထက်ကို ပိုပြီး လှပနေစေပါတယ်။ အခက်အခဲတွေ ဘယ်လောက်ပဲရှိပါစေ၊ အမြဲတမ်း ရဲရဲဝံ့ဝံ့ ရှေ့ဆက်နိုင်ဖို့ ဆုတောင်းပေးနေပါတယ်။"
+            <p class="text-pink-950/85 text-sm md:text-base leading-relaxed font-serif relative z-10 bg-white/60 p-4 rounded-xl border border-pink-200/50 backdrop-blur-[2px]">
+                "18 ပြည့်သွားပြီဆိုတော့ လူကြီးပေါက်စလေး ဖြစ်နေပြီနော် 🤭❤️ အရင်လို ကလေးဆန်ဆန် ချွဲလို့လည်းရတယ်၊ စိတ်ကောက်လို့လည်းရတယ်။ မမကတော့ ဘယ်အရွယ်ရောက်ရောက် ချစ်စရာကောင်းတဲ့ ကောင်လေးလေးအဖြစ်ပဲ မြင်နေဦးမှာပါ။ 🥺💗<br>
+
+မွေးနေ့ကစပြီး လိုချင်တဲ့အရာတိုင်း ပြည့်စုံပါစေ။ စိတ်ညစ်စရာတွေ နည်းနိုင်သမျှနည်းပြီး ပျော်ရွှင်စရာနေ့ရက်လေးတွေ အများကြီးပိုင်ဆိုင်နိုင်ပါစေ။ ကျန်းမာရေးလည်း ဂရုစိုက်နော်။ အစားလည်းမှန်မှန်စား၊ အိပ်ရေးလည်းဝဝအိပ်။<br>
+အရမ်းချစ်တယ် မောင်"💗
             </p>
         </div>
     </div>
 
-    <!-- Audio Element (Direct MP3 Audio Stream Link ကို အစားထိုးထားသည်) -->
-    <audio id="bgMusic" src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3" preload="auto"></audio>
+    <!-- Audio Element -->
+    <audio id="bgMusic" src="https://www.image2url.com/r2/default/audio/1789288232634-9a89e91e-e43f-4d68-b101-bf9b607f0f76.m4a" preload="auto"></audio>
 
     <script>
-        const youtubeVideoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
-        const sparkles = ['✨', '💖', '🌸', '🧸', '💙', '⭐', '🌷', '🎀'];
+        const youtubeVideoUrl = "https://www.youtube.com/embed/tGv7CUutzqU?si=JwTjp7bkA48p6tyq";
+        const sparkles = ['🎂', '🎉', '🎁', '🎈', '✨', '💖', '👑', '🌷'];
 
         const mainBouquet = document.getElementById('mainBouquet');
         const instructionText = document.getElementById('instructionText');
@@ -334,17 +338,17 @@
             }
 
             if (isOpen) {
-                glowBg.classList.add('bg-pink-300/60', 'scale-125');
-                instructionText.textContent = "✨ Tap again to tuck them back! ✨";
+                glowBg.classList.add('bg-pink-400/60', 'scale-125');
+                instructionText.textContent = "✨ ပြန်သိမ်းရန် ပန်းစည်းလေးကို ပြန်နှိပ်ပါ! ✨";
                 statusHeart.classList.add('animate-bounce');
-                statusText.textContent = "Status: Hugs Bloomed! 🌸";
+                statusText.textContent = "Status: Birthday Celebration Bloomed! 🎂🎉";
                 playTone(523.25);
-                spawnSparklesAround(centerX, centerY, 12);
+                spawnSparklesAround(centerX, centerY, 14);
             } else {
-                glowBg.classList.remove('bg-pink-300/60', 'scale-125');
-                instructionText.textContent = "👆 Tap the bouquet to open hugs! 👆";
+                glowBg.classList.remove('bg-pink-400/60', 'scale-125');
+                instructionText.textContent = "👇 မွေးနေ့လက်ဆောင်ဖွင့်ရန် ပန်းစည်းလေးကို နှိပ်ပါ! 👇";
                 statusHeart.classList.remove('animate-bounce');
-                statusText.textContent = "Status: Hugs Tucked In 💌";
+                statusText.textContent = "Status: Wishing you a magical day! 🎉";
             }
         }
 
@@ -368,7 +372,7 @@
                 const cdImg = document.getElementById('cdImageInner');
                 if (bgMusic.paused) {
                     bgMusic.play().then(() => {
-                        statusText.textContent = "Status: Music Playing 🎵";
+                        statusText.textContent = "Status: Playing Birthday Music 🎵";
                         if (cdImg) cdImg.classList.add('spinning-cd');
                     }).catch(err => {
                         console.log("Audio play error:", err);
